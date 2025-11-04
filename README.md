@@ -7,9 +7,6 @@ Each module is implemented with its corresponding testbench, focusing on **funct
 ---
 
 ## 📁 Project Structure
-
-## 📁 Project Structure
-
 ```yaml
 Bus_and_Peripheral_Verification_Using_SV/
 ├── SV_Verification_Projects/
