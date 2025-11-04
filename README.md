@@ -38,3 +38,45 @@ Bus_and_Peripheral_Verification_Using_SV/
 │       └── tb_whishbone_mem.sv
 └── README.md
 
+---
+
+## ⚙️ Features
+- ✅ Verification of **standard bus protocols** — AHB, APB, AXI, and Wishbone  
+- ✅ Verification of **peripheral modules** — UART, SPI, I²C  
+- ✅ Examples for **FIFO** and **D Flip-Flop** designs  
+- ✅ Modular and reusable testbench architecture  
+- ✅ Developed using **SystemVerilog (IEEE 1800-2017)**  
+
+---
+
+## 🧩 Tools Used
+- **Icarus Verilog** or **Synopsys VCS** — for simulation  
+- **GTKWave** — for waveform analysis  
+- **Makefiles** *(optional)* — for simulation automation  
+
+---
+
+## 🚀 How to Run
+1. Navigate to the desired project folder, e.g.:
+   ```bash
+   cd SV_Verification_Projects/AXI_LITE
+## 🚀 How to Run
+
+```yaml
+# Step 1: Compile the design and testbench files
+iverilog -o simv axi_lite.sv tb_axi_lite.sv
+
+# Step 2: Run the simulation
+vvp simv
+
+# Step 3: View the waveform
+gtkwave dump.vcd
+- Understand and verify SoC interconnect protocols:
+    - AHB
+    - AXI
+    - APB
+    - Wishbone
+- Gain hands-on experience with SystemVerilog verification
+- Develop modular, reusable verification environments
+- Strengthen understanding of digital communication systems
+
