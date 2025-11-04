@@ -71,6 +71,7 @@ vvp simv
 
 # Step 3: View the waveform
 gtkwave dump.vcd
+
 - Understand and verify SoC interconnect protocols:
     - AHB
     - AXI
