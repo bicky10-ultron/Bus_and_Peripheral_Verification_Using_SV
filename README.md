@@ -1,7 +1,7 @@
 # 🧠 Bus and Peripheral Verification Using SystemVerilog
 
 ## 📘 Overview
-This project demonstrates the **design and verification** of common digital communication buses and peripheral modules using **SystemVerilog**.  
+This project demonstrates the **design and verification** of AXI LIte and D-flip flop modules using **SystemVerilog**.  
 Each module is implemented with its corresponding testbench, focusing on **functional correctness**, **protocol-level verification**, and **test-driven development** practices.
 
 ---
@@ -19,7 +19,7 @@ Bus_and_Peripheral_Verification_Using_SV/
 └── README.md
 
 ---
-
+```
 ## ⚙️ Features
 - ✅ Verification of  AXI Lite 
 - ✅ Verification of D Flip-Flop and 4-bit Multiplier 
