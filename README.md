@@ -1,4 +1,4 @@
-# 🧠 Bus and Peripheral Verification Using SystemVerilog
+# 🧠 AXI and D_flip_flop Verification Using SystemVerilog
 
 ## 📘 Overview
 This project demonstrates the **design and verification** of AXI LIte and D-flip flop modules using **SystemVerilog**.  
