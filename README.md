@@ -13,17 +13,16 @@ Bus_and_Peripheral_Verification_Using_SV/
 │   ├── AXI_LITE/
 │   │   ├── axi_lite.sv
 │   │   └── tb_axi_lite.sv
-│   └── D-FLIP FLOP/
-│       ├── tb.sv
-│       └── tb_whishbone_mem.sv
+│   └── D-FLIP_FLOP/
+│       ├── d_flip_flop.sv
+│       └── tb_d_flip_flop.sv
 └── README.md
 
 ---
 
 ## ⚙️ Features
-- ✅ Verification of **standard bus protocols** — AHB, APB, AXI, and Wishbone  
-- ✅ Verification of **peripheral modules** — UART, SPI, I²C  
-- ✅ Examples for **FIFO** and **D Flip-Flop** designs  
+- ✅ Verification of  AXI Lite 
+- ✅ Verification of D Flip-Flop and 4-bit Multiplier 
 - ✅ Modular and reusable testbench architecture  
 - ✅ Developed using **SystemVerilog (IEEE 1800-2017)**  
 
@@ -52,12 +51,7 @@ vvp simv
 # Step 3: View the waveform
 gtkwave dump.vcd
 
-- Understand and verify SoC interconnect protocols:
-    - AHB
-    - AXI
-    - APB
-    - Wishbone
+
 - Gain hands-on experience with SystemVerilog verification
 - Develop modular, reusable verification environments
-- Strengthen understanding of digital communication systems
 
